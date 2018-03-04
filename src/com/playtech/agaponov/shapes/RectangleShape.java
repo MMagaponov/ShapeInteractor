@@ -3,6 +3,9 @@ package com.playtech.agaponov.shapes;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+В этом классе должны быть поля: 2 стороны прямоугольника
+**/
 public class RectangleShape extends AbstractShape {
     public RectangleShape(Map<String, Double> params) {
         super(params);
