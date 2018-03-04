@@ -18,6 +18,10 @@ public abstract class AbstractShape {
     public AbstractShape() {
     }
 
+    /**
+    Должен быть метод перимметра.
+    По условию задачи метода такого нет.
+    **/
     public abstract boolean isValid();
 
     public abstract Double getSquare();
