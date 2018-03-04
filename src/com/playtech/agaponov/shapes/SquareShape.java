@@ -1,5 +1,8 @@
 package com.playtech.agaponov.shapes;
 
+/**
+В этом классе должно быть поле: сторона квадрата
+**/
 public class SquareShape extends RectangleShape {
     @Override
     public boolean isValid() {
