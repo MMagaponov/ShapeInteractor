@@ -38,8 +38,13 @@ public class Main {
             userChoice = scanner.nextInt();
         } while (userChoice < MIN || userChoice > MAX);
 
+        /**
+        Это должен быть абстрактный класс с методом создания фигуры
+        **/
         ShapeInteractor interactor = null;
-
+        /**
+        А уже в switch переменной interactor должен быть присвоен конкретный класс по созданию фигуры
+        **/
         switch (userChoice) {
             case 1: {
                 interactor = new ShapeInteractor(new SquareShape());
