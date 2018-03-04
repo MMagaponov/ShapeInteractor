@@ -3,6 +3,9 @@ package com.playtech.agaponov.shapes;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+В этом классе должно быть поле - радиус
+**/
 public class CircleShape extends AbstractShape {
     @Override
     public boolean isValid() {
