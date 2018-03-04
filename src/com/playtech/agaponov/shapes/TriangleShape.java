@@ -3,6 +3,9 @@ package com.playtech.agaponov.shapes;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+В этом классе должны быть поля: 3 стороны треугольника
+**/
 public class TriangleShape extends AbstractShape {
     @Override
     public boolean isValid() {
